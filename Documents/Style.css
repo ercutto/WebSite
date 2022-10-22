@@ -1,0 +1,34 @@
+h1{/*Header one style*/
+    color: brown;
+}
+.RedText{
+    color: red;
+}
+.BlueText{
+    color:blue;
+}
+.GreenText{
+color: darkgreen;
+}
+.RedBox{
+    background-image: url(images/photo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 5px solid red;
+    border-radius: 3px;
+}
+.BlueBox{
+    background-color: rgb(60, 124, 196);
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+.GreenBox{
+    background-color: darkgreen;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}

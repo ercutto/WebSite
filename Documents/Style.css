@@ -10,25 +10,70 @@ h1{/*Header one style*/
 .GreenText{
 color: darkgreen;
 }
+.BigBox{
+   
+    margin-left: 1%;
+    padding: 1%;
+    background-color: antiquewhite;
+    width: 40%;
+    height: fit-content;
+  
+}
 .RedBox{
+  
+    margin-top: 10px;
     background-image: url(images/photo.jpg);
-    background-size: cover;
     background-position: center;
-    width: 200px;
-    height: 50px;
+    background-size:cover; 
+   
+    width: 90%;
+    height: 15%;
     text-align: center;
-    border: 5px solid red;
+    border: 15px inset;
+    border-color:  solid red;
     border-radius: 3px;
+   
+   
 }
 .BlueBox{
+  
+    
+    margin-top: 10px;
+
     background-color: rgb(60, 124, 196);
-    width: 200px;
-    height: 50px;
+    width: 90%;
+    height: 15%;
     text-align: center;
+    border:15px double;
+    border-color:  rgb(218, 247, 92);
+    border-radius: 3px;
+  
 }
 .GreenBox{
+   
+    margin-top: 10px;
     background-color: darkgreen;
-    width: 200px;
-    height: 50px;
+    width: 90%;
+    height: 15%;
     text-align: center;
+    
+    border: 15px inset;
+    
+    border-color: rgb(235, 140, 16);
+    border-radius: 3px;
+   
+}
+.Round{
+    margin-top: 10px;
+    
+    background-color: darkgreen;
+    width: 90%;
+    height: 15%;
+    text-align: center;
+    
+    border: 15px inset;
+    
+    border-color: rgb(235, 140, 16);
+    border-radius: 50%;
+
 }

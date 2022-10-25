@@ -1,87 +1,136 @@
-h1{/*Header one style*/
+h1 {
+    /*Header one style*/
     color: brown;
 }
-.RedText{
+
+.RedText {
     color: red;
 }
-.BlueText{
-    color:blue;
+
+.BlueText {
+    color: blue;
 }
-.GreenText{
-color: darkgreen;
+
+.GreenText {
+    color: darkgreen;
 }
-.BigBox{
-   
+
+.BigBox {
+
     margin-left: 1%;
     padding: 1%;
     background-color: antiquewhite;
     width: 40%;
     height: fit-content;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
-  
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-.RedBox{
-  
+
+.RedBox {
+
     margin-top: 10px;
     background-image: url(images/photo.jpg);
     background-position: center;
-    background-size:cover;   
+    background-size: cover;
     width: 90%;
     height: 15%;
     text-align: center;
     border: 15px inset;
-    border-color:  solid red;
+    border-color: solid red;
     border-radius: 3px;
-   
-   
+
+
 }
-.BlueBox{
-  
-    
+
+.BlueBox {
+
+
     margin-top: 10px;
 
     background-color: rgb(60, 124, 196);
     width: 90%;
     height: 15%;
     text-align: center;
-    border:15px double;
-    border-color:  rgb(218, 247, 92);
+    border: 15px double;
+    border-color: rgb(218, 247, 92);
     border-radius: 3px;
-  
+
 }
-.GreenBox{
-   
+
+.GreenBox {
+
     margin-top: 10px;
     background-color: darkgreen;
     width: 90%;
     height: 15%;
     text-align: center;
-    
+
     border: 15px inset;
-    
+
     border-color: rgb(235, 140, 16);
     border-radius: 3px;
-   
+
 }
-.Round{
+
+.Round {
     margin-top: 10px;
-    
+
     background-color: darkgreen;
     width: 90%;
     height: 15%;
     text-align: center;
-    
+
     border: 15px inset;
-    
+
     border-color: rgb(235, 140, 16);
     border-radius: 50%;
 
 }
-div :nth-child(1){
-    color: azure;
-}
-#myButton{
+
+#myButton {
     font-size: 30px;
-    color: aqua;
+    color: rgb(0, 255, 255);
+}
+
+#myButton:link {
+    font-size: 30px;
+    color: rgb(243, 247, 15);
+}
+
+#myButton:hover {
+    color: chartreuse;
+    font-size: 35px;
+}
+
+#myButton:active {
+    color: blueviolet;
+    font-size: 45px;
+}
+
+.myList {
+    list-style-type: lower-latin;
+}
+
+.myTable,
+td,
+tr {
+    border: 2px solid rgb(42, 195, 241);
+    border-collapse: collapse;
+    color: black;
+    text-align: left;
+}
+
+th {
+    border: 5px solid blue;
+    border-collapse: collapse;
+    background-color: aquamarine;
+}
+.myTable tr:nth-child(even){
+    background-color: rgb(43, 224, 52);
+}.myTable tr:nth-child(odd){
+    background-color: rgb(240, 74, 157);
+}
+.myTable tr:hover{
+    background-color: aliceblue;
 }

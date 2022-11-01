@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(39, 41, 41);
+}
 h1 {
     /*Header one style*/
     color: brown;
@@ -133,4 +136,43 @@ th {
 }
 .myTable tr:hover{
     background-color: aliceblue;
+    border:inset 5px grey;
+    border-radius: 5px;
+}
+.navBar{
+    background-color: rgb(87, 85, 85);
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0px 0px 20px 0px blue;
+
+}
+.navElements{
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  margin-right: 10px;
+  background-color: rgb(31, 31, 54);
+  border: 2px solid rgba(255, 0, 0, 0.432);
+  border-radius: 5px;
+  color: beige;
+}
+.navElements:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
+.navElements a{text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px blue;
+    font-weight: bold;
+
+}
+.newsContent{
+    position: absolute;
+    
+    display: inline-block;
+    z-index: 1;
+    
+}
+.newsContent ul{
+    list-style-type: none;
+ 
 }

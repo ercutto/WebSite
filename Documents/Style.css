@@ -140,6 +140,10 @@ th {
     border-radius: 5px;
 }
 .navBar{
+    position: fixed;
+    margin-top: 0px;
+  
+    z-index: 1;
     background-color: rgb(87, 85, 85);
     width: 100%;
     padding: 5px;
@@ -175,7 +179,7 @@ th {
     
 }
 .newContentElements{
-    z-index: 1;
+    z-index: 2;
     margin-bottom: 1px;
     display:block;
     padding:10px;

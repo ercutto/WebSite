@@ -4,12 +4,15 @@ let renderer = Matter.Render.create({
     engine: engine,
     options:{
         height:600,
-        width:400,
+        width:1000,
         wireframes:false
+        
+        
     }
    
 })
-let ground = Matter.Bodies.rectangle(300,300,200,20,{
+
+let ground = Matter.Bodies.rectangle(650,550,200,20,{
     isStatic:true,
     render:{
         fillStyle:'blue'
@@ -20,7 +23,7 @@ let ground = Matter.Bodies.rectangle(300,300,200,20,{
 let birdies = Matter.Bodies.rectangle(300,100,20,20,{          
 })
 
-let composıte = Matter.Composites.pyramid(200,50,10,6,0,0, function(x,y){
+let composıte = Matter.Composites.pyramid(550,50,10,6,0,0, function(x,y){
     return Matter.Bodies.rectangle(x,y,20,20/*,{
         render:{
             sprite:{
@@ -32,8 +35,8 @@ let composıte = Matter.Composites.pyramid(200,50,10,6,0,0, function(x,y){
 })
 
 let ballPos={
-    x:120,
-    y:250
+    x:150,
+    y:450
 }
 let ball= Matter.Bodies.circle(ballPos.x,ballPos.y,20/*,{
     render:{

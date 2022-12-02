@@ -1,0 +1,51 @@
+.nav{
+    background-color: gray;
+    padding: 5px;
+}
+.nav-ul{
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.nav-li{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(18, 177, 250);
+    display: inline-block;
+    margin-left: 3px;
+    background-color: darkgoldenrod;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+.container{
+    width: 100%;
+    border: 10px solid grey;
+    padding: 5px;
+    
+
+    
+}
+.container-li{
+    
+    margin-top: 0cm;
+    text-align: left;
+    display: inline-block;
+    width: 33%;  
+    height: fit-content;
+
+}
+.container-ul{
+    display: inline-block;
+}
+
+.left-ul-li{
+
+    padding-top: 5px;
+}
+
+

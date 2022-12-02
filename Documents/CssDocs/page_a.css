@@ -22,3 +22,30 @@
     border-radius: 5px;
 
 }
+.container{
+    width: 100%;
+    border: 10px solid grey;
+    padding: 5px;
+    
+
+    
+}
+.container-li{
+    
+    margin-top: 0cm;
+    text-align: left;
+    display: inline-block;
+    width: 33%;  
+    height: fit-content;
+
+}
+.container-ul{
+    display: inline-block;
+}
+
+.left-ul-li{
+
+    padding-top: 5px;
+}
+
+
